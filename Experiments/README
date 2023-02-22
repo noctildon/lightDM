@@ -1,0 +1,9 @@
+# PIP2BD
+ - uses the 2GeV beam on shielded target
+ - columns goes like px, py, pz, E, x, y, z, t
+    p/E are in GeV, xyz in meter, t in second
+ - 1e7 POT total stimulated
+ - 4.95e23 POT total
+ - 5 years runtime
+ - 100t LAr detector
+ - distance 15 or 30 meter

@@ -1,0 +1,10 @@
+
+scale the strength to Anna calculation https://doi.org/10.1016/j.physletb.2022.137576
+also apply the 216ns timing cut
+
+pip2bd runs with and without background (scale from CCM)
+
+
+filename, rescale factor
+empty, 0.16212
+_1, 1/11.5
