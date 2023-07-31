@@ -1,0 +1,10 @@
+- csi.txt and csi_10eta.txt
+  2021 data release
+  No timing, ie timing efficiency=100%
+  double check with the existing literature
+
+- CCM_Ge
+  1 ton detector, 1 year runtime, 20 meter distance, 1e22 POT/year
+  signal: elastic DM-Ge74 scattering
+  bkg: elastic DM-e scattering
+  threshold recoil energy: 10keV/1keV for nucleus/electron

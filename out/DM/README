@@ -1,0 +1,34 @@
+ccm120: include all lines (2.5-20MeV); strength scaling 0.16; exp='CCM120'; 1/100 bkg
+ccm120_20e: only the peak (8.9-15.6MeV); strength scaling 0.16; exp='CCM120'; 20 events
+ccm120_nu: include all lines (2.5-20MeV); strength scaling 0.16; exp='CCM120'; only nu bkg
+ccm120_nobkg: only the peak (8.9-15.6MeV); strength scaling 0.16; exp='CCM120'; 2.3 events
+ccm120_nobkg_100t: only the peak (8.9-15.6MeV); strength scaling 0.16; exp='CCM120'; 2.3 events; 100t
+
+
+ccm200: include all lines (2.7-22.22MeV); strength scaling 0.16; exp='CCM200'; 1/100 bkg
+ccm200_nu: include all lines (2.7-22.22MeV); strength scaling 0.16; exp='CCM200'; only nu bkg
+ccm200_nobkg: include all lines (2.7-22.22MeV); strength scaling 0.16; exp='CCM200'; 2.3 events
+ccm200_14e: only the peak (10-14.44MeV); strength scaling 0.16; exp='CCM200'; 14.82 events
+
+
+pip2bd_200e: only the peak (8.9-15.6MeV); strength scaling 0.16; exp='PIP2BD' (ccm120); 200 events
+pip2bd_540e: only the peak (10-14.44MeV); strength scaling 0.16; exp='PIP2BD' (ccm200); 540 events
+pip2bd_100e: only the peak (10-14.44MeV); strength scaling 0.16; exp='PIP2BD' (ccm200); 100 events
+pip2bd_nu: only the peak (10-14.44MeV); strength scaling 0.16; exp='PIP2BD' (ccm200); only nu bkg (total 670 nu events => 26 DM events)
+
+
+nai: include all lines (1-17.38MeV); strength scaling default; exp='COHERENT_NaI'; flat 400 bkg
+nai_20e: include all lines (1-17.38MeV); strength scaling default; exp='COHERENT_NaI'; 20 events
+nai_nu: include all lines (1-17.38MeV); strength scaling default; exp='COHERENT_NaI'; only nu bkg
+
+
+karmen_nobkg: only the peak (8.3-12MeV); strength scaling 1; exp='KARMEN'; 2.3 events; use COHERENT pion flux
+karmen_30e: only the peak (8.3-12MeV); strength scaling 1; exp='KARMEN'; 30 events; use COHERENT pion flux
+
+karmen: follow Jay's notebook; event=100; BGT=0.61; deltaE=15.1; efficiency=1; use COHERENT pion flux; 1e23 POT; pion eff=0.0448
+karmen_1: follow Jay's notebook; event=100; BGT=0.61; deltaE=15.1; efficiency=0.309; use COHERENT pion flux; 1e23 POT; pion eff=0.0448
+karmen_2: follow Jay's notebook; event=100; BGT=0.61; deltaE=15.1; efficiency=0.309; use CCM pion flux; 1.2e23 POT; pion eff=0.0448
+karmen_3: follow Jay's notebook; event=34; BGT=0.255; deltaE=15.1; efficiency=0.2; use CCM pion flux; 4.65e22 POT; pion eff=0.0523
+
+
+sbnd: pi0 rate = 1, pi- rate = 0.03

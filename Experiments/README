@@ -1,3 +1,10 @@
+flux_mA1MeV_ePHe and flux_mA50MeV_ePHe (from Jong-Chul) are WIMP flux [cm^-2 s^-1 MeV^-1] dPhi/dE
+
+# CCM200
+ - use "TBrowser tb" in ROOT to save the root file in .c, then extract the points
+ - old is the 1st root file from Mayank
+ - CCM bkg.csv and CCM bkg energy edges.csv is the 2nd root file from Mayank (DM_inelastic_cuts.root)
+
 # PIP2BD
  - uses the 2GeV beam on shielded target
  - columns goes like px, py, pz, E, x, y, z, t
@@ -7,3 +14,8 @@
  - 5 years runtime
  - 100t LAr detector
  - distance 15 or 30 meter
+
+
+# BNB
+ - columns: px, py, pz, T [GeV]
+ - T is kinetic energy
